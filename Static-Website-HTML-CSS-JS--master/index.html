@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Web Design for Practice</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	</head>
+	
+	<body class="body">
+		<div class="menudiv">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" height="70px" width="150px"></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">COMPANY</a>
+						<ul>
+							<li><a href="#">ACCOUTNS</a></li>
+							<li><a href="#">FINANCE</a></li>
+							<li><a href="#">BRANCHES</a></li>
+							<li><a href="#">CAREER</a></li>
+						</ul>
+					</li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">CAREER</a></li>
+				</ul>
+			</div>
+			<div class="sicon">
+				<a href="#"><img src="images/icons/fb.png" height="25px" width="25px"></a>
+				<a href="#"><img src="images/icons/inst.png" height="25px" width="25px"></a>
+				<a href="#"><img src="images/icons/in.png" height="25px" width="25px"></a>
+			</div>
+		</div>
+		
+										<!-- slider div -->
+		<div id="banner">
+			<div class="slider-wrapper theme-bar">
+				<div id="slider" class="nivoSlider"> 
+					<img src="images/toystory.jpg" data-thumb="images/toystory.jpg"/> 
+					<img src="images/walle.jpg" data-thumb="images/walle.jpg"/> 
+					<img src="images/nemo.jpg" data-thumb="images/nemo.jpg"/> 
+				</div>
+			</div>
+		</div>
+			
+			<!-- whiteicon div -->
+			<div class="imgmenu">
+				<div class="whiteicon"><a href="#"><img src="images/icons/1.png" height="50px" width="50px"></a></div>
+				<div class="whiteicon"><a href="#"><img src="images/icons/2.png" height="50px" width="50px"></a></div>
+				<div class="whiteicon"><a href="#"><img src="images/icons/3.png" height="50px" width="50px"></a></div>
+				<div class="whiteicon"><a href="#"><img src="images/icons/4.png" height="50px" width="50px"></a></div>
+				<div class="whiteicon"><a href="#"><img src="images/icons/5.png" height="50px" width="50px"></a></div>
+			</div>
+			
+									<!-- middle div -->
+			<div class="middlediv">
+				<div class="image1"><img src="images/image_1.jpg" height="200px" width="300px"></div>
+				<div class="image2"><img src="images/image_2.jpg" height="200px" width="300px"></div>
+				<div class="login">
+					<h1> Some Text Here</h1>
+					<form>
+						<input class="email_box" type="email" name="email" placeholder="email address..."></input><br>
+						<button class="button" type="button" value="SUBSCRIBER">SUBSCRIBE</button>
+					</form>
+				</div>
+			</div>
+			
+							<!-- last div -->
+			 
+			<div class="lastdiv">
+			
+				<div class="image3"><img src="images/image_3.jpg" height="300px" width="467px"></div>
+				<div class="image4"><img src="images/image_4.jpg" height="300px" width="467px"></div>
+			
+			</div>
+			<!-- footer -->
+			<div class="footer">
+				<div class="footermenu">
+					<ul>
+						<li><a href="#">Contact US</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>Copyright &copy Anisur Rahman 2017</p>
+				</div>
+			</div>
+
+									<!-- jquery -->
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"> </script>	
+		<script type="text/javascript" src="js/jquery.nivo.slider.js"> </script>	
+			<script type="text/javascript">
+				$(window).load(function() {
+				$('#slider').nivoSlider();
+				});
+			</script> 
+	</body>
+</html>
