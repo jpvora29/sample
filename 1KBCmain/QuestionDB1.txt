@@ -1,5 +1,0 @@
-Q.What is the output for 'python' [-3]?='o'='t'='h'=Negative index error=3
-Q.Which can be an Identifier among them in Python?=1abc=$12a=_xy1=@python=3
-Q.What is output of following print("abbzxyzxzxabb".count('abb',10,1))=2=0=1=Error=2
-Q.How to create a frame in Python?=new.window()=frame.new()=Frame()=window.new()=3
-Q.Which way among them is used to create an event loop ?=Window.eventloop()=Window.mainloop()=Window.loop()=Eventloop.window()=2

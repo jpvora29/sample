@@ -1,5 +1,0 @@
-Q.Which type of elements are accepted by random.shuffle()?=strings= lists=tuples=integers=1
-Q.What are the methods which begin and end with 2 underscore characters called?=In-built methods=User-defined methods=Additional methods=Special methods=4
-Q.Which of the following is not a type of inheritance?=Double level=Multilevel=Single level=Multiple=1
-Q.Which operator is overloaded by the __or__() function?=||=|=//=/=2
-Q.______exceptions are raised as a result of an error in opening a particular file.=ValueError=TypeError=ImportError=IOError=4

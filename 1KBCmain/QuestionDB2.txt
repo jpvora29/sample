@@ -1,5 +1,0 @@
-Q._____ represents an entity in the real world with its identity and behaviour.=A METHOD=AN OBJECT=A CLASS=AN OPERATOR=2
-Q.Which function overloads the // operator?=__div__()=__ceildiv__()=__floordiv__()=__truediv__()=3
-Q.Which of the following is not a valid mode to open a file?=ab=rw=r+=w+=2
-Q.How do you get the current position within the file?=fp.seek()=fp.tell()=fp.loc()=fp.pos=2
-Q.Which operator is overloaded by __invert__()?= != ~ =^ =-=3
