@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Components - Buttons</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <blockquote  cite="http://en.wikiquote.org/wiki/Andr%C3%A9_Gide">
+      <p>"Man cannot discover new oceans unless he has the courage to lose sight of the shore."<br>
+      — André Gide
+      </p>
+    </blockquote>
+
+    <h2 class="dev-path">JavaScript Developer</h2>
+    <h1 class="dev-name">Vojislav Grujić</h1>
+
+  </header>
+  <section class="main">
+
+    <nav>
+      <ul class="menu">
+        <li class="clearfix">
+          <label class="main-menu-toggle" for="main-menu">Projects &gt;</label>
+          <input type="checkbox" name="main-menu" id="main-menu" class="hidden">
+          <ul class="main-menu">
+            <li class="link current"><a href="#">Buttons</a></li>
+            <li class="link"><a href="profile-card.html">Profile Card</a></li>
+            <li class="link dropdown">
+              <input type="checkbox" name="submenu" id="submenu" class="hidden">
+              <label for="submenu">Forms <span class="arrow-down">&#9662;</span></label>
+              <ul class="submenu">
+                <li><a href="forms.html#signup">Sign Up</a></li>
+                <li><a href="forms.html#search">Search</a></li>
+                <li><a href="forms.html#color-form">Color Picker</a></li>
+                <li><a href="forms.html#login">Login</a></li>
+                <li><a href="forms.html#questionnaire">Questionnaire</a></li>
+                <li><a href="forms.html#address">Address</a></li>
+                <li><a href="forms.html#schedule">Schedule</a></li>
+                <li><a href="forms.html#credit-card">Credit Card</a></li>
+              </ul>
+            </li>
+            <li class="link"><a href="calculator.html">Calculator</a></li>
+            <li class="link"><a href="product-listing.html">Product Listing</a></li>
+          </ul>
+          <span id="home" class="link"><a href="index.html">HOME</a></span>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Introduction to CSS &mdash; Project Assignment 2:<br> Button Web Component</h1>
+
+    <section class="project project-buttons">
+      <h2><a href="http://gruximillian.github.io/learning-web-components/components/buttons/" target="_blank">Button Web Component</a></h2>
+      <div class="project-thumb">
+        <a href="http://gruximillian.github.io/learning-web-components/components/buttons/" target="_blank"><img src="img/buttons.jpg"></a>
+      </div>
+      <p>The goal of this assignment is to create button elements from different HTML elements: &lt;div&gt;, &lt;button&gt; and &lt;a&gt;.</p>
+      <p>Every element has a class ".button" and by styling that class all the elements should get the same appearance.</p>
+      <p>Besides that, the assignment asks to create three size variations for buttons, small, medium and large, which are applied with classes ".button-sm", ".button-md" and ".button-lg", respectively.</p>
+    </section>
+
+  </section> <!-- end ".main" section -->
+
+  <footer>
+    <p><a href="https://github.com/Gruximillian/learning-web-components/blob/master/components/buttons" target="_blank"><img class="github-logo" src="img/GitHub-Mark.png" alt="github logo"></a> You can find the source code for this project on <a href="https://github.com/Gruximillian/learning-web-components/blob/master/components/buttons" target="_blank">GitHub</a>.</p>
+  </footer>
+</body>
+</html>
